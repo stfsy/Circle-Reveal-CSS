@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Reveal</title>
+	<!-- Circle Reveal CSS -->
+	<link rel="stylesheet" href="/css/circle-reveal.css">
+	<!-- Circle Reveal Script -->
+	<script src="/js/circle-reveal.js"></script>
+	
+	<!-- Circle Reveal Support for IE -->
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/internetexplorer.css">
+	<![endif]-->
+	<!-- Legacy Support -->
+	<link rel="stylesheet" href="/css/circle-reveal-legacy.css">
+
+	<!-- Demo CSS -->
+	<style type="text/css">
+		.corbin, .daniel {
+			height: 500px;
+			width: 500px;
+		}
+		.landscape {
+			width: 640px;
+			height: 360px; 
+		}
+		#color {
+			background-color: #212121;
+		}
+	</style>
+</head>
+<body>
+	<div class="corbin circle-reveal">
+		<img class="corbin" src="/img/corbin.png">
+		<div class="daniel circle-reveal-content">
+			<img class="daniel" src="/img/daniel.png">
+		</div>
+	</div>
+
+	<div class="landscape circle-reveal">
+		<div class="landscape" id="color"></div>
+		<div class="landscape circle-reveal-content">
+			<img class="landscape" src="/img/background.png">
+		</div>
+	</div>
+</body>
+</html>
