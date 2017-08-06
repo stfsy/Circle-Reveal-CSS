@@ -1,0 +1,22 @@
+{
+  "name": "circle-reveal-css",
+  "version": "0.1.0",
+  "description": "Circle reveal animation in JS and CSS based off of Material Design",
+  "main": "lib/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stfsy/Circle-Reveal-CSS.git"
+  },
+  "author": "Stefan Pfaffel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stfsy/Circle-Reveal-CSS/issues"
+  },
+  "homepage": "https://github.com/stfsy/Circle-Reveal-CSS#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
